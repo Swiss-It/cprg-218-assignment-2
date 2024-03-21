@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    margin: 0;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+
+.content-container {
+    background-color: antiquewhite;
+}
+
+.cards-container {
+    background-color: coral;
+}
+
+.embeded-container {
+    background-color: bisque;
+}
+
+.accordion-container {
+    background-color: brown;
+}
+
+.footer-container {
+    background-color: blue;
+}
