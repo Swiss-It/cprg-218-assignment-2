@@ -1,1 +1,59 @@
 /* global.css */
+
+body {
+    background-image: linear-gradient(to bottom right, var(--primary), var(--accent));
+}
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+    transition: .25s;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+h1 h2 h3 h4 p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+/*Class Lists*/
+.accordion {
+    min-width: 50vw;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+  }
+  
+  .accordion .accordion-header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion .accordion-header:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .accordion .accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: var(--background);
+  }
+
+* {
+  box-sizing: border-box;
+}
