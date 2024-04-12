@@ -45,7 +45,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2rem 3rem;
-    background-color: var(--secondary);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     gap: 1rem;
@@ -62,6 +61,7 @@ body {
     object-fit: cover;
     object-position: center;
     filter: brightness(0.2);
+    background: black;
   }
   
   .card-content {
@@ -74,10 +74,8 @@ body {
   
   .card-title {
     font-weight: 600;
-    background-color: rgb(193, 255, 230); /* This should be a bright, semi-transparent color */
-    color: transparent;
+    color: var(--secondary);
     background-clip: text;
-    -webkit-background-clip: text;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
